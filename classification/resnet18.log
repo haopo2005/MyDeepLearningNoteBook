@@ -1,0 +1,173 @@
+name: GeForce GTX 1060 3GB
+major: 6 minor: 1 memoryClockRate (GHz) 1.7715
+pciBusID 0000:02:00.0
+Total memory: 2.94GiB
+Free memory: 2.39GiB
+2019-02-24 20:21:42.000599: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2019-02-24 20:21:42.000605: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2019-02-24 20:21:42.000612: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060 3GB, pci bus id: 0000:02:00.0)
+There are 4000 cats
+ There are 4005 dogs
+	Building unit: conv1
+	Building residual unit: residual_conv2_1
+	Building residual unit: residual_conv2_2
+	Building residual unit: residual_conv3_1
+	Building residual unit: residual_conv3_2
+	Building residual unit: residual_conv4_1
+	Building residual unit: residual_conv4_2
+	Building residual unit: residual_conv5_1
+	Building residual unit: residual_conv5_2
+(28, 4, 4, 2)
+参数数目:11180546
+
+Step:      0, loss: 0.72353387, accuracy: 46.41%, time:0.85s, time left: 0.04hours
+Step:    100, loss: 0.69113946, accuracy: 96.44%, time:8.86s, time left: 0.37hours
+Step:    200, loss: 0.67893708, accuracy: 75.00%, time:7.42s, time left: 0.31hours
+Step:    300, loss: 0.63934845, accuracy: 89.26%, time:7.59s, time left: 0.31hours
+Step:    400, loss: 0.61303574, accuracy: 71.39%, time:7.80s, time left: 0.32hours
+Step:    500, loss: 0.63321185, accuracy: 89.26%, time:7.60s, time left: 0.31hours
+Step:    600, loss: 0.66239572, accuracy: 50.00%, time:7.63s, time left: 0.31hours
+Step:    700, loss: 0.57745218, accuracy: 74.95%, time:7.56s, time left: 0.30hours
+Step:    800, loss: 0.65888357, accuracy: 60.69%, time:7.66s, time left: 0.30hours
+Step:    900, loss: 0.61385489, accuracy: 67.87%, time:7.61s, time left: 0.30hours
+Step:   1000, loss: 0.54146791, accuracy: 74.95%, time:7.51s, time left: 0.29hours
+Step:   1100, loss: 0.64245164, accuracy: 67.82%, time:7.96s, time left: 0.31hours
+Step:   1200, loss: 0.63951260, accuracy: 64.26%, time:7.52s, time left: 0.29hours
+Step:   1300, loss: 0.36942267, accuracy: 89.26%, time:7.64s, time left: 0.29hours
+Step:   1400, loss: 0.61706769, accuracy: 71.39%, time:7.64s, time left: 0.29hours
+Step:   1500, loss: 0.52377909, accuracy: 82.13%, time:7.66s, time left: 0.29hours
+Step:   1600, loss: 0.40804064, accuracy: 82.13%, time:7.67s, time left: 0.29hours
+Step:   1700, loss: 0.49642679, accuracy: 75.00%, time:7.65s, time left: 0.28hours
+Step:   1800, loss: 0.51764417, accuracy: 71.44%, time:7.63s, time left: 0.28hours
+Step:   1900, loss: 0.55074835, accuracy: 64.26%, time:7.80s, time left: 0.28hours
+Step:   2000, loss: 0.63644814, accuracy: 64.26%, time:7.63s, time left: 0.28hours
+Step:   2100, loss: 0.39956790, accuracy: 82.13%, time:8.03s, time left: 0.29hours
+Step:   2200, loss: 0.65499580, accuracy: 64.26%, time:7.76s, time left: 0.28hours
+Step:   2300, loss: 0.36295378, accuracy: 85.69%, time:7.69s, time left: 0.27hours
+Step:   2400, loss: 0.47218668, accuracy: 71.39%, time:7.71s, time left: 0.27hours
+Step:   2500, loss: 0.51882493, accuracy: 82.13%, time:7.74s, time left: 0.27hours
+Step:   2600, loss: 0.44254646, accuracy: 85.69%, time:7.68s, time left: 0.26hours
+Step:   2700, loss: 0.32414076, accuracy: 85.69%, time:7.66s, time left: 0.26hours
+Step:   2800, loss: 0.41751117, accuracy: 78.52%, time:7.71s, time left: 0.26hours
+Step:   2900, loss: 0.23028450, accuracy: 89.26%, time:7.70s, time left: 0.26hours
+Step:   3000, loss: 0.25691691, accuracy: 89.26%, time:7.79s, time left: 0.26hours
+Step:   3100, loss: 0.21450362, accuracy: 96.44%, time:8.17s, time left: 0.27hours
+Step:   3200, loss: 0.21466503, accuracy: 85.74%, time:7.80s, time left: 0.26hours
+Step:   3300, loss: 0.32411528, accuracy: 82.13%, time:7.81s, time left: 0.25hours
+Step:   3400, loss: 0.42017415, accuracy: 78.52%, time:7.97s, time left: 0.26hours
+Step:   3500, loss: 0.34460375, accuracy: 85.69%, time:7.81s, time left: 0.25hours
+Step:   3600, loss: 0.17049861, accuracy: 96.44%, time:7.66s, time left: 0.24hours
+Step:   3700, loss: 0.14541084, accuracy: 96.44%, time:7.90s, time left: 0.25hours
+Step:   3800, loss: 0.26614296, accuracy: 85.69%, time:7.63s, time left: 0.24hours
+Step:   3900, loss: 0.28478318, accuracy: 85.69%, time:7.79s, time left: 0.24hours
+Step:   4000, loss: 0.17330876, accuracy: 92.87%, time:7.71s, time left: 0.24hours
+Step:   4100, loss: 0.14000931, accuracy: 89.26%, time:7.99s, time left: 0.24hours
+Step:   4200, loss: 0.20443523, accuracy: 92.87%, time:7.66s, time left: 0.23hours
+Step:   4300, loss: 0.03716244, accuracy: 100.00%, time:7.79s, time left: 0.23hours
+Step:   4400, loss: 0.03062147, accuracy: 100.00%, time:7.74s, time left: 0.23hours
+Step:   4500, loss: 0.06693403, accuracy: 100.00%, time:7.74s, time left: 0.23hours
+Step:   4600, loss: 0.04666153, accuracy: 100.00%, time:7.80s, time left: 0.23hours
+Step:   4700, loss: 0.12814966, accuracy: 92.87%, time:7.65s, time left: 0.22hours
+Step:   4800, loss: 0.15172322, accuracy: 92.87%, time:7.72s, time left: 0.22hours
+Step:   4900, loss: 0.05520059, accuracy: 96.44%, time:7.88s, time left: 0.22hours
+Step:   5000, loss: 0.17503127, accuracy: 96.44%, time:7.79s, time left: 0.22hours
+Step:   5100, loss: 0.07144343, accuracy: 100.00%, time:8.17s, time left: 0.22hours
+Step:   5200, loss: 0.08080654, accuracy: 96.44%, time:7.89s, time left: 0.21hours
+Step:   5300, loss: 0.03937957, accuracy: 100.00%, time:7.83s, time left: 0.21hours
+Step:   5400, loss: 0.18436474, accuracy: 96.44%, time:7.92s, time left: 0.21hours
+Step:   5500, loss: 0.00442486, accuracy: 100.00%, time:8.09s, time left: 0.21hours
+Step:   5600, loss: 0.02451207, accuracy: 100.00%, time:8.08s, time left: 0.21hours
+Step:   5700, loss: 0.13161172, accuracy: 96.44%, time:7.97s, time left: 0.21hours
+Step:   5800, loss: 0.01223722, accuracy: 100.00%, time:7.86s, time left: 0.20hours
+Step:   5900, loss: 0.00811422, accuracy: 100.00%, time:7.64s, time left: 0.19hours
+Step:   6000, loss: 0.01415395, accuracy: 100.00%, time:7.68s, time left: 0.19hours
+Step:   6100, loss: 0.01233204, accuracy: 100.00%, time:7.99s, time left: 0.20hours
+Step:   6200, loss: 0.22671235, accuracy: 92.87%, time:7.79s, time left: 0.19hours
+Step:   6300, loss: 0.07778417, accuracy: 96.44%, time:7.73s, time left: 0.19hours
+Step:   6400, loss: 0.00117461, accuracy: 100.00%, time:7.63s, time left: 0.18hours
+Step:   6500, loss: 0.05807917, accuracy: 96.44%, time:7.75s, time left: 0.18hours
+Step:   6600, loss: 0.00931829, accuracy: 100.00%, time:7.67s, time left: 0.18hours
+Step:   6700, loss: 0.01223767, accuracy: 100.00%, time:7.83s, time left: 0.18hours
+Step:   6800, loss: 0.00729607, accuracy: 100.00%, time:7.85s, time left: 0.18hours
+Step:   6900, loss: 0.02250956, accuracy: 100.00%, time:7.71s, time left: 0.17hours
+Step:   7000, loss: 0.01618205, accuracy: 100.00%, time:7.76s, time left: 0.17hours
+Step:   7100, loss: 0.00944368, accuracy: 100.00%, time:8.07s, time left: 0.18hours
+Step:   7200, loss: 0.00314939, accuracy: 100.00%, time:7.70s, time left: 0.17hours
+Step:   7300, loss: 0.03318807, accuracy: 100.00%, time:7.63s, time left: 0.16hours
+Step:   7400, loss: 0.00363811, accuracy: 100.00%, time:7.85s, time left: 0.17hours
+Step:   7500, loss: 0.10380563, accuracy: 96.44%, time:7.86s, time left: 0.16hours
+Step:   7600, loss: 0.02405383, accuracy: 100.00%, time:7.91s, time left: 0.16hours
+Step:   7700, loss: 0.02604878, accuracy: 100.00%, time:7.65s, time left: 0.16hours
+Step:   7800, loss: 0.00355221, accuracy: 100.00%, time:7.89s, time left: 0.16hours
+Step:   7900, loss: 0.08589804, accuracy: 96.44%, time:8.09s, time left: 0.16hours
+Step:   8000, loss: 0.00320037, accuracy: 100.00%, time:8.00s, time left: 0.16hours
+Step:   8100, loss: 0.00176457, accuracy: 100.00%, time:8.52s, time left: 0.16hours
+Step:   8200, loss: 0.04991638, accuracy: 96.44%, time:7.95s, time left: 0.15hours
+Step:   8300, loss: 0.05339091, accuracy: 96.44%, time:7.94s, time left: 0.15hours
+Step:   8400, loss: 0.15139981, accuracy: 96.44%, time:8.11s, time left: 0.15hours
+Step:   8500, loss: 0.04079473, accuracy: 100.00%, time:8.15s, time left: 0.15hours
+Step:   8600, loss: 0.06366842, accuracy: 96.44%, time:7.84s, time left: 0.14hours
+Step:   8700, loss: 0.00219476, accuracy: 100.00%, time:7.84s, time left: 0.14hours
+Step:   8800, loss: 0.01775167, accuracy: 100.00%, time:7.72s, time left: 0.13hours
+Step:   8900, loss: 0.00339701, accuracy: 100.00%, time:7.79s, time left: 0.13hours
+Step:   9000, loss: 0.08089316, accuracy: 96.44%, time:7.69s, time left: 0.13hours
+Step:   9100, loss: 0.15825555, accuracy: 96.44%, time:8.22s, time left: 0.13hours
+Step:   9200, loss: 0.00188966, accuracy: 100.00%, time:7.80s, time left: 0.13hours
+Step:   9300, loss: 0.08341160, accuracy: 96.44%, time:8.04s, time left: 0.13hours
+Step:   9400, loss: 0.01358113, accuracy: 100.00%, time:8.05s, time left: 0.13hours
+Step:   9500, loss: 0.01049680, accuracy: 100.00%, time:7.67s, time left: 0.12hours
+Step:   9600, loss: 0.00132629, accuracy: 100.00%, time:8.00s, time left: 0.12hours
+Step:   9700, loss: 0.00366708, accuracy: 100.00%, time:7.92s, time left: 0.12hours
+Step:   9800, loss: 0.00540018, accuracy: 100.00%, time:8.09s, time left: 0.12hours
+Step:   9900, loss: 0.00045054, accuracy: 100.00%, time:8.07s, time left: 0.11hours
+Step:  10000, loss: 0.00147341, accuracy: 100.00%, time:8.06s, time left: 0.11hours
+Step:  10100, loss: 0.07459238, accuracy: 96.44%, time:8.70s, time left: 0.12hours
+Step:  10200, loss: 0.01384405, accuracy: 100.00%, time:7.97s, time left: 0.11hours
+Step:  10300, loss: 0.00145528, accuracy: 100.00%, time:8.04s, time left: 0.10hours
+Step:  10400, loss: 0.00714463, accuracy: 100.00%, time:8.19s, time left: 0.10hours
+Step:  10500, loss: 0.00438766, accuracy: 100.00%, time:7.86s, time left: 0.10hours
+Step:  10600, loss: 0.00290282, accuracy: 100.00%, time:8.10s, time left: 0.10hours
+Step:  10700, loss: 0.09116580, accuracy: 96.44%, time:7.79s, time left: 0.09hours
+Step:  10800, loss: 0.00117741, accuracy: 100.00%, time:7.68s, time left: 0.09hours
+Step:  10900, loss: 0.03184873, accuracy: 96.44%, time:7.61s, time left: 0.09hours
+Step:  11000, loss: 0.01152980, accuracy: 100.00%, time:7.70s, time left: 0.09hours
+Step:  11100, loss: 0.03144840, accuracy: 96.44%, time:8.10s, time left: 0.09hours
+Step:  11200, loss: 0.00409858, accuracy: 100.00%, time:7.78s, time left: 0.08hours
+Step:  11300, loss: 0.00130540, accuracy: 100.00%, time:7.59s, time left: 0.08hours
+Step:  11400, loss: 0.00079345, accuracy: 100.00%, time:7.69s, time left: 0.08hours
+Step:  11500, loss: 0.00085320, accuracy: 100.00%, time:7.73s, time left: 0.08hours
+Step:  11600, loss: 0.00689435, accuracy: 100.00%, time:7.69s, time left: 0.07hours
+Step:  11700, loss: 0.01297604, accuracy: 100.00%, time:7.69s, time left: 0.07hours
+Step:  11800, loss: 0.00215900, accuracy: 100.00%, time:7.70s, time left: 0.07hours
+Step:  11900, loss: 0.06997010, accuracy: 96.44%, time:7.67s, time left: 0.07hours
+Step:  12000, loss: 0.05188777, accuracy: 96.44%, time:7.60s, time left: 0.06hours
+Step:  12100, loss: 0.00019881, accuracy: 100.00%, time:8.14s, time left: 0.07hours
+Step:  12200, loss: 0.12510148, accuracy: 96.44%, time:7.69s, time left: 0.06hours
+Step:  12300, loss: 0.00514866, accuracy: 100.00%, time:7.66s, time left: 0.06hours
+Step:  12400, loss: 0.02936752, accuracy: 96.44%, time:7.70s, time left: 0.06hours
+Step:  12500, loss: 0.00086492, accuracy: 100.00%, time:7.67s, time left: 0.05hours
+Step:  12600, loss: 0.00323517, accuracy: 100.00%, time:7.82s, time left: 0.05hours
+Step:  12700, loss: 0.01534170, accuracy: 100.00%, time:7.71s, time left: 0.05hours
+Step:  12800, loss: 0.11656552, accuracy: 96.44%, time:7.86s, time left: 0.05hours
+Step:  12900, loss: 0.02295594, accuracy: 100.00%, time:7.68s, time left: 0.04hours
+Step:  13000, loss: 0.03538372, accuracy: 100.00%, time:7.68s, time left: 0.04hours
+Step:  13100, loss: 0.00620139, accuracy: 100.00%, time:8.06s, time left: 0.04hours
+Step:  13200, loss: 0.00391929, accuracy: 100.00%, time:7.82s, time left: 0.04hours
+Step:  13300, loss: 0.00393925, accuracy: 100.00%, time:7.73s, time left: 0.04hours
+Step:  13400, loss: 0.00555245, accuracy: 100.00%, time:7.71s, time left: 0.03hours
+Step:  13500, loss: 0.00627953, accuracy: 100.00%, time:7.85s, time left: 0.03hours
+Step:  13600, loss: 0.00720024, accuracy: 100.00%, time:7.75s, time left: 0.03hours
+Step:  13700, loss: 0.00080925, accuracy: 100.00%, time:7.81s, time left: 0.03hours
+Step:  13800, loss: 0.00033058, accuracy: 100.00%, time:7.69s, time left: 0.03hours
+Step:  13900, loss: 0.03921991, accuracy: 96.44%, time:7.96s, time left: 0.02hours
+Step:  14000, loss: 0.02890010, accuracy: 100.00%, time:7.73s, time left: 0.02hours
+Step:  14100, loss: 0.00503281, accuracy: 100.00%, time:8.17s, time left: 0.02hours
+Step:  14200, loss: 0.00154304, accuracy: 100.00%, time:7.85s, time left: 0.02hours
+Step:  14300, loss: 0.00314186, accuracy: 100.00%, time:8.01s, time left: 0.02hours
+Step:  14400, loss: 0.00040731, accuracy: 100.00%, time:8.06s, time left: 0.01hours
+Step:  14500, loss: 0.00231732, accuracy: 100.00%, time:8.06s, time left: 0.01hours
+Step:  14600, loss: 0.00437252, accuracy: 100.00%, time:7.89s, time left: 0.01hours
+Step:  14700, loss: 0.05508845, accuracy: 96.44%, time:8.19s, time left: 0.01hours
+Step:  14800, loss: 0.00032719, accuracy: 100.00%, time:7.66s, time left: 0.00hours
+Step:  14900, loss: 0.00525662, accuracy: 100.00%, time:7.96s, time left: 0.00hours
+
