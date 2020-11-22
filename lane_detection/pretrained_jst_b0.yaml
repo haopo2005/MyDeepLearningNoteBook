@@ -1,0 +1,64 @@
+# Training settings
+seed: 0
+exps_dir: 'experiments'
+iter_log_interval: 1
+iter_time_window: 100
+model_save_interval: 1
+backup:
+model:
+  name: PolyRegression
+  parameters:
+    num_outputs: 35 # (10 lanes) * (1 conf + 2 (upper & lower) + 4 poly coeffs)
+    pretrained: false
+    backbone: 'efficientnet-b0'
+    pred_category: false
+#    extra_outputs: 40 # 10 lanes * 2 classes
+    curriculum_steps: [0, 0, 0, 0]
+loss_parameters:
+  conf_weight: 1
+  lower_weight: 1
+  upper_weight: 1
+  cls_weight: 1
+  poly_weight: 300
+batch_size: 16
+epochs: 100
+optimizer:
+  name: Adam
+  parameters:
+    lr: 3.0e-4
+lr_scheduler:
+  name: CosineAnnealingLR
+  parameters:
+    T_max: 100
+
+# Testing settings
+test_parameters:
+  conf_threshold: 0.5
+
+# Dataset settings
+datasets:
+  train:
+    type: LaneDataset
+    parameters:
+      dataset: JST
+      split: train
+      img_size: [360, 640]
+      normalize: true
+      aug_chance: 0.
+      augmentations: []
+      root: "/fs/scratch/ccserver_cc_cr_challenge/lane-detection/train/images"
+
+  test: &test
+    type: LaneDataset
+    parameters:
+      dataset: JST
+      split: val
+      max_lanes: 10
+      img_size: [360, 640]
+      root: "/fs/scratch/ccserver_cc_cr_challenge/lane-detection/train/images"
+      normalize: true
+      augmentations: []
+
+  # val = test
+  val:
+    <<: *test
