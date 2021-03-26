@@ -12,5 +12,5 @@ opencv_python==4.2.0.32
 efficientnet_pytorch==0.6.3
 torch==1.4.0
 progressbar33==2.4
-PyYAML==5.3.1
+PyYAML==5.4
 scikit-learn==0.21.3
